@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Disney Latino</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel = "stylesheet" href="./style.css">
+  </head>
+
+  <body>
+
+    <div class ="body"> 
+           <!-- barra de nevegacion --> 
+    <nav class="navbar navbar-expand-lg nav-color">
+      <div class="container-fluid"> 
+          <a class="navbar-brand" href="./index.html">
+              <img src = "imagenes/dinsey-logo.png" alt = "logo" class = "logo-main">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  nav-cofig" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                <!-- item 2-->
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                   <!-- item 1-->
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./merchandising.html">Merchandising</a>
+                </li>
+                   <!-- item 2-->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Menu desplegable
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Disney</a></li>
+                          <li><a class="dropdown-item" href="#">Disney</a></li>
+                          <li><a class="dropdown-item" href="#">Disney</a></li>
+                      </ul>
+                  </li>
+                  
+              </ul>
+          </div>
+      </div>
+  </nav>
+   <!-- Contenido principal -->
+  <main>        
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner carrusel-main">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <a href="https://www.disneylatino.com/peliculas/the-marvels"> 
+                <img src="./imagenes/the-marvels.jpg" class="d-block w-100 imagen-zoom " alt="..."></a>
+              <div class="carousel-caption d-none d-md-block">         
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./imagenes/mike.jpg" class="d-block w-100 imagen-zoom " alt="...">
+              <div class="carousel-caption d-none d-md-block">             
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/reyleon.jpg" class="d-block w-100 imagen-zoom " alt="...">
+              <div class="carousel-caption d-none d-md-block">                
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class = "titulo-main">
+          <span>Videos</span>
+        </div>
+        <div class = "contenedor-videos-main">
+          <ul class="videos-list">
+            <li>
+              <iframe class = "videos-main"  src="https://www.youtube.com/embed/cvDxdUcxPUE?si=a7c40Sr1fjAcZBYZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+            <li>
+              <iframe class = "videos-main" src="https://www.youtube.com/embed/hxf-UHuGobI?si=t3lCbIQhchu4HFI-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+            <li>
+              <iframe class = "videos-main" src="https://www.youtube.com/embed/u108iziVFh8?si=-TDCvaHuoLJtFApt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+            <li>
+              <iframe class = "videos-main" src="https://www.youtube.com/embed/Y8QNt6cnfA8?si=hI1zBN9v_zJI2ugV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </li>
+          </ul>
+        </div>
+
+    
+        <div class = "titulo-tendencia" >
+          <span>Tendencia en Disney+</span>
+        </div>
+          <div class = "contenedor-tendencia-imagen">
+            <a href="https://www.disneylatino.com/series/echo">
+              <img src ="./imagenes/echo.jpg" class = "imagen-tendencia">
+              <p class ="parrafo-tendencia-disney"><b>ECHO</b></p>
+              <span class ="span-tendencia-disney">No te pierdas la nueva serie de Marvel</span>
+            </a>
+          
+             <a href="https://www.disneylatino.com/series/what-if">
+              <img src ="./imagenes/whatif.jpg" class = "imagen-tendencia">    
+              <p class ="parrafo-tendencia-disney"><b>WHAT IF...?</b></p>      
+              <span class ="span-tendencia-disney">Segunda temporada ya disponible</span>
+            </a>
+          </div>
+       
+
+    </main>
+  
+   <!-- Footer -->
+      <footer>
+        <ul class = "footer-main">
+          <li><img src = "imagenes/dinsey-logo.png" alt = "logo" class = "logo-footer"></li>
+          <li><a href="#">Disney</a></li>
+          <li><a href="#">Star+</a></li>
+          <li><a href="#">Peliculas</a></li>
+          <li><a href="#">Series</a></li>
+          <li><a href="#">Radio disney</a></li>
+        </ul>
+      </footer>  
+    </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
